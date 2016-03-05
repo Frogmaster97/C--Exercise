@@ -114,7 +114,7 @@ void walk(int x,int y,int depth,Board B){
 int main(){
 	int i,j,depth;
 	Board B;
-	for(depth=4;depth<=9;depth++){
+	for(depth=4;depth<=M*M;depth++){
 		for(i=0;i<M;i++){
 			for(j=0;j<M;j++){
 				memset(B.board,0,M*M*sizeof(int));
